@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #012677;
+    border-bottom: 10px solid #000000;
+    padding: 10px 20px;
+    
+
+}
+#nome-logo{
+    font-size: 45px;
+    color: white;
+    text-shadow: 10px 10px black;
+    font-family:'Press Start 2P';
+    
+
+    
+    
+}
+
+
+
+
+a{
+    display: inline-flex;
+    align-items: center;
+    color:#FFF;
+    font-size: 20px;
+    font-family: 'Fira Code';
+    font-weight: 500;
+    text-decoration:none;
+    margin-right: 30px;
+    
+}
+
+a::before{
+    content: "";
+    
+    width: 10px;
+    height: 10px;
+    background-color: #feffd6;
+    margin-right: 10px;
+}
+
+nav{
+
+   text-align: right;
+    
+}
+
+#button{
+    display: inline-block;
+    background-color: #00b4fc;
+    /* box-shadow: 2.5px 1px 0px #1e90ff; */
+    padding: 18px 20px 18px 11px;
+    margin-right: 0px;
+    transition: 100ms linear;
+
+}
+
+#button:hover{
+    background-color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+
+#imagem-logo{
+    width: 60px;
+    margin-top: 5px;
+   
+    
+}
+
+   
+
+
+
